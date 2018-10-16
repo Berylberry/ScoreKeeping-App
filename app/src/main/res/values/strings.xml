@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Football Scores App</string>
+    <string name="reset">Reset</string>
+    <string name="scores">Scores</string>
+    <string name="team_a_score">Team A Score</string>
+    <string name="team_b_score">Team B Score</string>
+    <string name="team_a_foul">Team A Fouls</string>
+    <string name="team_b_foul">Team B Fouls</string>
+</resources>
