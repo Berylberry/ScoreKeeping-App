@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:onClick="reset"
         android:layout_alignParentBottom="true"
         android:text="@string/reset"/>
 
@@ -52,6 +53,7 @@
                 android:id="@+id/btn_add_team_a_score"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
+                android:onClick="incrementTeamAScore"
                 android:src="@drawable/ic_add_black_24dp"
                 android:layout_marginBottom="15dp"/>
 
@@ -73,6 +75,7 @@
                 android:id="@+id/btn_add_team_a_foul"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
+                android:onClick="incrementTeamAFoul"
                 android:src="@drawable/ic_add_black_24dp"/>
 
         </LinearLayout>
@@ -103,6 +106,7 @@
                 android:id="@+id/btn_add_team_b_score"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
+                android:onClick="incrementTeamBScore"
                 android:src="@drawable/ic_add_black_24dp"
                 android:layout_marginBottom="15dp"/>
 
@@ -124,6 +128,7 @@
                 android:id="@+id/btn_add_team_b_foul"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
+                android:onClick="incrementTeamBFoul"
                 android:src="@drawable/ic_add_black_24dp"/>
 
         </LinearLayout>
